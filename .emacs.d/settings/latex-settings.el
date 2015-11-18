@@ -9,7 +9,7 @@
 
 (if (system-is-mac)
     (progn
-      (require 'tex-site)
+      ;; (require 'tex-site)
       (require 'font-latex)
       (setq TeX-view-program-list
 	    (quote 
