@@ -8,8 +8,10 @@
 
 ; color theme
 (add-to-list 'custom-theme-load-path (make-plugin-path "color-theme-solarized"))
-(load-theme 'solarized 1)
-(setq solarized-termcolors 256)
+(set-frame-parameter nil 'background-mode 'dark)
+(set-terminal-parameter nil 'background-mode 'dark)
+(load-theme 'solarized t)
+(setq solarized-termcolors 16)
 
 (require 'faces)
 (if (system-is-mac)
