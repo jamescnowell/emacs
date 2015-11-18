@@ -20,10 +20,7 @@
                ein
                magit
                markdown-mode
-               matlab-mode
-               nxhtml
                pydoc-info
-               scss-mode
                popup
                jedi
                nyan-mode
@@ -32,6 +29,7 @@
                js2-mode
                yasnippet
                yaml-mode
+               rainbow-delimiters
                ))   
 
 ; first enable shallow clone, so we don't need to clone the entire

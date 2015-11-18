@@ -53,9 +53,6 @@
 (require 'ido)
 (ido-mode 1)
 
-;; MuMaMo
-(require 'mumamo-settings)
-
 ;; Markdown mode
 (require 'markdown-settings)
 
@@ -64,12 +61,6 @@
 
 ;; LaTeX and Auctex
 (require 'latex-settings)
-
-;; SCSS Mode
-(require 'scss-settings)
-
-;; Matlab mode
-(require 'matlab-settings)
 
 ;; Javascript
 (require 'js-settings)
@@ -80,6 +71,11 @@
 ;; Nyancat mode!
 (nyan-mode 1)
 
+;; Rainbow Delimiters Mode
+(require 'rainbow-settings)
+
+;; Org mode
+(require 'org-settings)
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
