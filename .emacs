@@ -60,7 +60,7 @@
 (require 'python-settings)
 
 ;; LaTeX and Auctex
-;; (require 'latex-settings)
+(require 'latex-settings)
 
 ;; Javascript
 (require 'js-settings)
