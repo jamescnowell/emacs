@@ -1,12 +1,12 @@
 ;--------------------------------;
 ;;; General or Global Settings ;;;
 ;--------------------------------;
-
+(require 'custom-functions)
 ; set PATH, because we don't load .bashrc
 ; function from https://gist.github.com/jakemcc/3887459
 (defun set-exec-path-from-shell-PATH ()
   (setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
-  (if system-is-mac  (setenv "PATH" (concat "/Library/TeX/texbin:" (getenv "PATH"))))
+  (if (system-is-mac)  (setenv "PATH" (concat "/Library/TeX/texbin:" (getenv "PATH"))))
   (let ((path-from-shell (shell-command-to-string "$SHELL -i -c 'echo -n $PATH'")))
     (setenv "PATH" path-from-shell)
     (setq exec-path (split-string path-from-shell path-separator))))
