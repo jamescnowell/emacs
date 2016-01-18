@@ -32,6 +32,7 @@
                rainbow-delimiters
                cider
                dot-mode
+               scala-mode2
                ))   
 
 ; first enable shallow clone, so we don't need to clone the entire
