@@ -31,7 +31,7 @@
                yaml-mode
                rainbow-delimiters
                cider
-               dot-mode
+               graphviz-dot-mode
                scala-mode2
                ))   
 

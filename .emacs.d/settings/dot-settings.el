@@ -2,7 +2,7 @@
 ;;; DOT mode ;;;
 ;-----------------------------;
 
-(require 'dot-mode)
+(require 'graphviz-dot-mode)
 
 (provide 'dot-settings)
 
