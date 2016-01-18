@@ -80,6 +80,9 @@
 ;; Scala mode
 (require 'scala-settings)
 
+;; DOT mode
+(require 'dot-settings)
+
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
 ;; custom-set-faces and custom-set-variables)
