@@ -31,6 +31,7 @@
                yaml-mode
                rainbow-delimiters
                cider
+               dot-mode
                ))   
 
 ; first enable shallow clone, so we don't need to clone the entire

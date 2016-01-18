@@ -83,3 +83,4 @@
 (load 
  (setq custom-file (expand-file-name "settings/custom.el" user-emacs-directory))
  'noerror)
+(put 'downcase-region 'disabled nil)
