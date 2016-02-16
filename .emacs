@@ -83,6 +83,9 @@
 ;; DOT mode
 (require 'dot-settings)
 
+;; DOT mode
+(require 'csv-settings)
+
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
 ;; custom-set-faces and custom-set-variables)
