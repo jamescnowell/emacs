@@ -59,17 +59,11 @@
 ;; Python mode 
 (require 'python-settings)
 
-;; LaTeX and Auctex
-(require 'latex-settings)
-
 ;; Javascript
 (require 'js-settings)
 
 ;; YAML mode
 (require 'yaml-settings)
-
-;; Nyancat mode!
-(nyan-mode 1)
 
 ;; Rainbow Delimiters Mode
 (require 'rainbow-settings)
@@ -81,10 +75,10 @@
 (require 'scala-settings)
 
 ;; DOT mode
-(require 'dot-settings)
-
-;; DOT mode
 (require 'csv-settings)
+
+;; Crontab mode
+(require 'crontab-settings)
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like

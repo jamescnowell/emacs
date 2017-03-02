@@ -14,7 +14,7 @@
 
 ; packages to install
 (setq 
- my-packages '(auctex
+ my-packages '(
                auto-complete
                color-theme-solarized
                ein
@@ -23,18 +23,16 @@
                pydoc-info
                popup
                jedi
-               nyan-mode
                helm
                helm-descbinds
                js2-mode
                yasnippet
                yaml-mode
                rainbow-delimiters
-               cider
-               graphviz-dot-mode
                scala-mode2
                csv-mode
                json-mode
+               crontab-mode
                ))   
 
 ; first enable shallow clone, so we don't need to clone the entire
