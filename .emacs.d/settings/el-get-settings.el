@@ -29,7 +29,6 @@
                yasnippet
                yaml-mode
                rainbow-delimiters
-               scala-mode2
                csv-mode
                json-mode
                crontab-mode
