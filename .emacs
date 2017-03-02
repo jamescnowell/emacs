@@ -16,9 +16,9 @@
 ;;; Utilities ;;;
 ;---------------;
 
-;; Git
-(include-plugin "magit")
-(require 'magit)
+;; ;; Git
+;; (include-plugin "magit")
+;; (require 'magit)
 
 ;; Popup
 (include-elget-plugin "popup")
@@ -71,8 +71,8 @@
 ;; Org mode
 (require 'org-settings)
 
-;; Scala mode
-(require 'scala-settings)
+;; ;; Scala mode
+;; (require 'scala-settings)
 
 ;; DOT mode
 (require 'csv-settings)
