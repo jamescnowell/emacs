@@ -6,12 +6,34 @@
  ;; If there is more than one, they won't work right.
  )
 
+(setenv "PATH" (concat "/usr/local/bin:/Users/jnowell/bin:" (getenv "PATH")))
+(setq exec-path (append "/Users/jnowell/bin" exec-path))
+(setq exec-path (append "/usr/local/bin" exec-path))
+
 ; color theme
 (add-to-list 'custom-theme-load-path (make-plugin-path "color-theme-solarized"))
 (set-frame-parameter nil 'background-mode 'dark)
 (set-terminal-parameter nil 'background-mode 'dark)
+
 (load-theme 'solarized t)
-(setq solarized-termcolors 16)
+
+(add-hook 'after-make-frame-functions
+          (lambda (frame)
+            (set-frame-parameter frame 'background-mode 'dark)
+            (set-terminal-parameter frame 'background-mode 'dark)
+            (enable-theme 'solarized)))
+
+(if (daemonp)
+    (add-hook 'after-make-frame-functions
+              (lambda (frame)
+                (select-frame frame)
+                (set-frame-parameter frame 'background-mode 'dark)
+                (set-terminal-parameter frame 'background-mode 'dark)
+                (enable-theme 'solarized)
+                (load-theme 'solarized t)))
+      (load-theme 'solarized t))
+
+;; (setq solarized-termcolors 16)
 
 (require 'faces)
 (if (system-is-mac)
