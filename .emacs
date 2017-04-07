@@ -1,3 +1,10 @@
+(setenv "PATH"
+        (concat
+         "/Users/jnowell/bin" ":"
+         (getenv "PATH")
+         )
+)
+
 ;; path where settings files are kept
 (add-to-list 'load-path "~/.emacs.d/settings")
 ;; path to where plugins are kept
