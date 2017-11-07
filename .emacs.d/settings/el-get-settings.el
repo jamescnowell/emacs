@@ -14,7 +14,7 @@
 
 ; packages to install
 (setq 
- my-packages '(auctex
+ my-packages '(
                auto-complete
                color-theme-solarized
                ein
@@ -32,7 +32,6 @@
                rainbow-delimiters
                cider
                graphviz-dot-mode
-               scala-mode2
                csv-mode
                json-mode
                ))   

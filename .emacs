@@ -66,9 +66,6 @@
 ;; Python mode 
 (require 'python-settings)
 
-;; LaTeX and Auctex
-(require 'latex-settings)
-
 ;; Javascript
 (require 'js-settings)
 
@@ -85,7 +82,7 @@
 (require 'org-settings)
 
 ;; Scala mode
-(require 'scala-settings)
+;; (require 'scala-settings)
 
 ;; DOT mode
 (require 'dot-settings)
